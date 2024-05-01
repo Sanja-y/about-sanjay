@@ -30,6 +30,8 @@ import LogoLimitscale from './logo-limitscale.png'
 import LogoOpenTurf from "./logo-openturf.png"
 import Interview from  "./interview.jpg"
 import Sanjay from "./Sanjay.png"
+import Movies from "./movies.jpeg"
+import LostandFound from "./lost&found.png"
 
 export {
     LogoJavascript,
@@ -62,5 +64,7 @@ export {
     LogoLimitscaleLight,
     Interview,
     Sanjay,
+    LostandFound,
+    Movies,
     
 }

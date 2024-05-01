@@ -25,14 +25,14 @@ const ProjectDetails = ({
                         : 'md:order-last md:rounded-r-xl md:border-l'
                 )}
             >
-                <CustomLink noCustomization to={url} externalLink>
+                {/* <CustomLink noCustomization to={url} externalLink> */}
                     <ImageWrapper
                         src={previewImage}
                         alt={`${name} preview`}
                         className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
                         style={{ objectFit: 'cover' }}
                     />
-                </CustomLink>
+                {/* </CustomLink> */}
             </div>
 
             {/* Content */}
@@ -51,14 +51,14 @@ const ProjectDetails = ({
                         <Tag key={index} label={technology} />
                     ))}
                 </div>
-                <CustomLink
+                {/* <CustomLink
                     to={url}
                     noCustomization
                     className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
                     externalLink
                 >
                     <ExternalLink />
-                </CustomLink>
+                </CustomLink> */}
             </div>
         </Card>
     );

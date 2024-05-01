@@ -21,8 +21,10 @@ import {
   LogoTcs,
   LogoVsc,
   LogoOpenTurf,
+  Sanjay, 
   Interview,
-  Sanjay
+  Movies,
+  LostandFound,
   
 } from "../assets/logos";
 
@@ -198,7 +200,7 @@ export const myProjects = [
     description:
       "Evaluate potential candidates by using artificial intelligence to validate answers. Questions can range from MCQ to video-based.",
     url: "null",
-    previewImage: {Interview},
+    previewImage: Interview,
     technologies: [
       "React",
       "Javascript",
@@ -213,7 +215,7 @@ export const myProjects = [
       "Surf to find about your favourite movies and more!",
     url: "https://readmagic.vercel.app/",
     previewImage:
-      "https://read-magic-server.vercel.app/public/homescreen-snapshot.JPG",
+     Movies,
     technologies: [
       "React",
       "Javascript",
@@ -223,18 +225,18 @@ export const myProjects = [
     ],
   },
   {
-    name: "Moveesurfer - Movie Database",
+    name: "Lost and Found",
     description:
-      "Surf to find about your favourite movies and more!",
+      "Help your local community by finding or reporting lost items.",
     url: "https://readmagic.vercel.app/",
     previewImage:
-      "https://read-magic-server.vercel.app/public/homescreen-snapshot.JPG",
+      LostandFound,
     technologies: [
-      "React",
-      "Javascript",
+      "Next",
+      "Typescript",
       "Tailwindcss",
-      "Express.js",
-
+      "tRPC",
+      "Prisma",
     ],
   },
 ];
